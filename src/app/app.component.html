@@ -1,0 +1,85 @@
+<div class="grid">
+  <div class="primary main-container">
+    <div class="column-container">
+      <span class="text">Hi, I'm Ulises Hernandez</span>
+      <span class="text-light">and I'm a software engineer</span>
+    </div>
+    <div>
+      <app-circular-container class="big-circle" [image]="'../assets/me.png'"/>
+    </div>
+  </div>
+
+  <div class="column-container" style="justify-content: space-between">
+    <div
+      class="secondary main-container center-aligned"
+      style="align-items: last baseline"
+    >
+      <div class="column-container">
+        <span class="text">Currently living in</span>
+        <span class="text-light">Strasbourg, France</span>
+        <span class="text-light"><s>Mulhouse, France</s></span>
+        <span class="text-light"><s>Ottawa, Canada</s></span>
+        <span class="text-light"><s>Juarez, Mexico</s></span>
+      </div>
+    </div>
+    <div class="bottom-image">
+      <img src="../assets/strasbourg.svg" />
+    </div>
+  </div>
+
+  <div class="primary main-container right-aligned">
+    <div class="column-container">
+      <span class="text">I'm interested in all<br />that is related to</span>
+      <span class="text-light">Artificial Intelligence</span>
+      <span class="text-light">Machine Learning</span>
+      <span class="text-light">Fullstack Development</span>
+      <span class="text-light">Mobile Development</span>
+    </div>
+  </div>
+
+  <div class="secondary main-container">
+    <span class="text">You can see what<br />I've done here</span>
+    <div
+      class="column-container"
+      style="height: 100%; justify-content: space-evenly"
+    >
+      <app-circular-container
+        class="medium-circle"
+        [onClick]="navigateToUrl('https://www.linkedin.com/in/uhernandezc/details/certifications/')"
+        [image]="'../assets/certifications.jpeg'"
+      >
+        Certifications
+      </app-circular-container>
+      <app-circular-container
+        class="medium-circle"
+        [onClick]="navigateToUrl('https://github.com/uliseshdzc')"
+        [image]="'../assets/projects.jpeg'"
+      >
+        Projects
+      </app-circular-container>
+      <app-circular-container
+        class="medium-circle"
+        [onClick]="navigateToUrl('https://www.sfeir.dev/author/ulises-hernandez/')"
+        [image]="'../assets/articles.jpeg'"
+      >
+        Articles
+      </app-circular-container>
+    </div>
+  </div>
+
+  <div class="primary main-container center-aligned">
+    <div
+      class="column-container"
+      style="height: 100%; justify-content: space-evenly"
+    >
+      <span class="text">Let's get in contact ;)</span>
+      <div class="center-aligned">
+        <app-circular-container 
+          class="big-circle"
+          [onClick]="navigateToUrl('mailto:<ulises.hernandez.calzadillas@gmail.com>')"
+          [image]="'../assets/mail.png'"
+        />
+      </div>
+    </div>
+  </div>
+</div>

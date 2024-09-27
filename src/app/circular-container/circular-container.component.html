@@ -1,0 +1,13 @@
+<div class="circle-wrapper" (mouseenter)="onMouseEnter()" (mouseleave)="onMouseLeave()" >
+  <div class="circle main-circle" (click)="onClick && onClick()">
+    <div class="hover-image">
+      <img src="{{image}}">
+      <div class="color-overlay" *ngIf="!showContent"></div>
+    </div>
+    <div class="content" *ngIf="!showContent">
+      <ng-content/>
+    </div>
+  </div>
+  <div class="circle circle-behind circle-behind-1"></div>
+  <div class="circle circle-behind circle-behind-2"></div>
+</div>

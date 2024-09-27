@@ -1,0 +1,82 @@
+.content, .hover-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.hover-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  clip-path: circle();
+}
+
+.color-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--circle-color, var(--primary-color));
+  clip-path: circle();
+  opacity: 0.5;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.circle-wrapper {
+  position: relative;
+  width: var(--circle-size, 100px);
+  height: var(--circle-size, 100px);
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  width: var(--circle-size, 100px);
+  height: var(--circle-size, 100px);
+  transition:
+    transform 0.3s ease,
+    left 0.3s ease,
+    opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.main-circle {
+  background-color: var(--circle-color, var(--primary-color));
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: var(--circle-content-color, var(--on-primary-color));
+}
+
+.circle-behind {
+  background-color: var(--circle-color, var(--primary-color));
+  z-index: 2;
+  opacity: 0.6;
+  top: 0;
+  left: calc(var(--circle-size, 100px) / 5);
+}
+
+.circle-behind-1 {
+  z-index: 1;
+  opacity: 0.4;
+  left: calc(var(--circle-size, 100px) / 2.5);
+}
+
+.circle-wrapper:hover .main-circle {
+  transform: scale(1.2);
+}
+
+.circle-wrapper:hover .circle-behind {
+  left: calc(var(--circle-size, 100px) / 3);
+}
+
+.circle-wrapper:hover .circle-behind-1 {
+  left: calc(var(--circle-size, 100px) / 2);
+}
