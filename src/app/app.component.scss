@@ -54,8 +54,6 @@
   animation-range: 0% 30%, 70% 100%;
   animation-timeline: view();
 
-  padding-left: 15%;
-  padding-right: 15%;
   display: flex;
   align-items: center;
 }
@@ -84,14 +82,12 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: fit-content;
 }
 
 .column-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
 }
 
 .bottom-image {
@@ -119,12 +115,10 @@
 
 .text {
   font-size: 76px;
-  width: 100%;
 }
 
 .text-light {
   opacity: 0; // Start hidden
-  width: 100%;
   font-size: 72px;
   font-weight: 200;
 }
