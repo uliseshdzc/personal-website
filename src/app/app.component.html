@@ -6,7 +6,10 @@
         <span class="text-light">and I'm a software engineer</span>
       </div>
       <div>
-        <app-circular-container class="big-circle" [image]="'assets/me.png'"/>
+        <app-circular-container 
+          class="big-circle" 
+          [onClick]="navigateToUrl('https://www.linkedin.com/in/uhernandezc/')"
+          [image]="'assets/me.png'"/>
       </div>
     </div>
   </div>
