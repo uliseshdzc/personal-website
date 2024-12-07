@@ -1,20 +1,21 @@
 <div class="grid">
   <div class="primary main-container center-aligned">
-    <div class="sticky-content" style="">
+    <div class="sticky-content">
       <div class="column-container">
         <span class="text">Hi, I'm Ulises Hernandez</span>
         <span class="text-light">and I'm a software engineer</span>
       </div>
       <div>
-        <app-circular-container class="big-circle" [image]="'assets/me.png'"/>
+        <app-circular-container 
+          class="big-circle" 
+          [onClick]="navigateToUrl('https://www.linkedin.com/in/uhernandezc/')"
+          [image]="'assets/me.png'"/>
       </div>
     </div>
   </div>
 
-
   <div class="secondary main-container center-aligned">
-    <!-- <div class="column-container" style="justify-content: space-between"> -->
-      <div class="sticky-content">
+      <div class="sticky-content" style="z-index: 1;">
         <div class="column-container" style="justify-content: space-between">
           <div class="column-container">
             <span class="text">Currently living in</span>
@@ -25,16 +26,15 @@
           </div>
         </div>
       </div>
-      <!-- <div class="bottom-image">
-        <img src="assets/strasbourg.svg" />
-      </div> -->
-    <!-- </div> -->
   </div>
 
-
-
-  <div class="primary main-container right-aligned">
-    <div class="sticky-content">
+  <div class="primary main-container" style="animation: none; padding-left: 0%;">
+    <div class="sticky-content" style="z-index: 2; position: absolute; top: 350vh; transform: translateY(-100%); ">
+      <div class="bottom-image">
+        <img src="assets/strasbourg.svg" alt="Strasbourg"/>
+      </div>
+    </div>
+    <div class="sticky-content right-aligned" style="z-index: 1;">
       <div class="column-container">
         <span class="text">I'm interested in all<br />that is related to</span>
         <span class="text-light">Artificial Intelligence</span>
