@@ -5,7 +5,7 @@
 .grid {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 100vh repeat(4, 200vh);
+  grid-template-rows: 100vh repeat(4, 250vh);
 }
 
 .big-circle {
@@ -87,13 +87,13 @@
   width: 100%;
 }
 
-// .bottom-image {
-//   display: flex;
-//   width: 100%;
-//   height: auto;
-//   align-items: flex-end;
-//   transform: translateY(5px);
-// }
+.bottom-image {
+  display: flex;
+  width: 100%;
+  height: auto;
+  align-items: flex-end;
+  transform: translateY(5px);
+}
 
 @keyframes fadeInUp {
   from {
