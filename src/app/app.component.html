@@ -1,11 +1,11 @@
 <div class="grid">
   <div class="primary main-container center-aligned">
     <div class="sticky-content">
-      <div class="column-container">
-        <span class="text">Hi, I'm Ulises Hernandez</span>
-        <span class="text-light">and I'm a software engineer</span>
-      </div>
-      <div>
+      <div class="row-container">
+        <div class="column-container" style="padding-right: 30px;">
+          <span class="text" style="width: fit-content;">Hi, I'm Ulises Hernandez</span>
+          <span class="text-light" style="width: fit-content;">and I'm a software engineer</span>
+        </div>
         <app-circular-container 
           class="big-circle" 
           [onClick]="navigateToUrl('https://www.linkedin.com/in/uhernandezc/')"
@@ -34,14 +34,19 @@
         <img src="assets/strasbourg.svg" alt="Strasbourg"/>
       </div>
     </div>
-    <div class="sticky-content right-aligned" style="z-index: 1; padding-left: 15%;">
-      <app-brain-sparks-model/>
+    <div class="sticky-content" style="z-index: 1; padding-left: 15%;">
       <div class="column-container">
-        <span class="text">I'm interested in all<br />that is related to</span>
-        <span class="text-light">Artificial Intelligence</span>
-        <span class="text-light">Machine Learning</span>
-        <span class="text-light">Fullstack Development</span>
-        <span class="text-light">Mobile Development</span>
+        <app-brain-sparks-model/>
+      </div>
+      <div class="column-container center-aligned">
+        <div class="column-container right-aligned" style="width: fit-content;">
+          <span class="text">I'm interested in all<br />that is related to</span>
+          <span class="text-light">Artificial Intelligence</span>
+          <span class="text-light">Machine Learning</span>
+          <span class="text-light">Fullstack Development</span>
+          <span class="text-light">Mobile Development</span>
+        </div>
+
       </div>
     </div>
   </div>
@@ -86,8 +91,7 @@
       class="column-container"
       style="height: 100%; justify-content: space-evenly"
     >
-      <span class="text">Let's get in contact ;)</span>
-      <br/><br/><br/>
+      <span class="text" style="padding-bottom: 60px;">Let's get in contact ;)</span>
       <div class="center-aligned">
         <app-circular-container 
           class="big-circle"

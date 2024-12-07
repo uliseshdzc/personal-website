@@ -9,11 +9,11 @@
 }
 
 .big-circle {
-  --circle-size: 300px;
+  --circle-size: 250px;
 }
 
 .medium-circle {
-  --circle-size: 200px;
+  --circle-size: 175px;
   font-size: 25px;
 }
 
@@ -80,6 +80,13 @@
   text-align: right;
 }
 
+.row-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: fit-content;
+}
+
 .column-container {
   display: flex;
   flex-direction: column;
@@ -111,13 +118,13 @@
 }
 
 .text {
-  font-size: 80px;
+  font-size: 76px;
   width: 100%;
 }
 
 .text-light {
   opacity: 0; // Start hidden
   width: 100%;
-  font-size: 76px;
+  font-size: 72px;
   font-weight: 200;
 }
