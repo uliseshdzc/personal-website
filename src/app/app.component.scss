@@ -9,11 +9,11 @@
 }
 
 .big-circle {
-  --circle-size: 300px;
+  --circle-size: 250px;
 }
 
 .medium-circle {
-  --circle-size: 200px;
+  --circle-size: 175px;
   font-size: 25px;
 }
 
@@ -54,8 +54,6 @@
   animation-range: 0% 30%, 70% 100%;
   animation-timeline: view();
 
-  padding-left: 15%;
-  padding-right: 15%;
   display: flex;
   align-items: center;
 }
@@ -80,11 +78,16 @@
   text-align: right;
 }
 
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .column-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
 }
 
 .bottom-image {
@@ -111,13 +114,77 @@
 }
 
 .text {
-  font-size: 80px;
-  width: 100%;
+  font-size: 76px;
 }
 
 .text-light {
   opacity: 0; // Start hidden
-  width: 100%;
-  font-size: 76px;
+  font-size: 72px;
   font-weight: 200;
+}
+
+.big-screen-small-padding-right {
+  padding-right: 50px;
+}
+
+.big-screen-big-padding-right {
+  padding-right: 100px;
+}
+
+.small-screen-padding-bottom {
+  padding-bottom: 0;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px) {
+  .big-circle {
+    --circle-size: 200px;
+  }
+  
+  .medium-circle {
+    --circle-size: 125px;
+    font-size: 16px;
+  }
+
+  .text {
+    font-size: 52px;
+  }
+  
+  .text-light {
+    font-size: 46px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .big-circle {
+    --circle-size: 175px;
+  }
+  
+  .medium-circle {
+    --circle-size: 100px;
+    font-size: 16px;
+  }
+
+  .text {
+    font-size: 36px;
+  }
+  
+  .text-light {
+    font-size: 32px;
+  }
+
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .big-screen-small-padding-right {
+    padding-right: 0;
+  }
+
+  .big-screen-big-padding-right {
+    padding-right: 0;
+  }
+
+  .small-screen-padding-bottom {
+    padding-bottom: 50px;
+  }
 }
