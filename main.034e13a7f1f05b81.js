@@ -55,96 +55,93 @@ let AppComponent = /*#__PURE__*/(() => {
       this.ɵcmp = /*@__PURE__*/_angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵdefineComponent"]({
         type: AppComponent,
         selectors: [["app-root"]],
-        decls: 75,
+        decls: 68,
         vars: 10,
-        consts: [[1, "grid"], [1, "primary", "main-container", "center-aligned"], [1, "sticky-content"], [1, "column-container"], [1, "text"], [1, "text-light"], [1, "big-circle", 3, "onClick", "image"], [1, "secondary", "main-container", "center-aligned"], [1, "sticky-content", 2, "z-index", "1"], [1, "column-container", 2, "justify-content", "space-between"], [1, "primary", "main-container", 2, "animation", "none", "padding-left", "0%"], [1, "sticky-content", 2, "z-index", "2", "position", "absolute", "top", "350vh", "transform", "translateY(-100%)"], [1, "bottom-image"], ["src", "assets/strasbourg.svg", "alt", "Strasbourg"], [1, "sticky-content", "right-aligned", 2, "z-index", "1", "padding-left", "15%"], [1, "column-container", 2, "height", "100%", "justify-content", "space-evenly"], [1, "medium-circle", 3, "onClick", "image"], [1, "center-aligned"]],
+        consts: [[1, "grid"], [1, "primary", "main-container", "center-aligned"], [1, "sticky-content"], [1, "wrapper"], [1, "column-container", "big-screen-small-padding-right", "small-screen-padding-bottom"], [1, "text", 2, "width", "fit-content"], [1, "text-light", 2, "width", "fit-content"], [1, "big-circle", 3, "onClick", "image"], [1, "secondary", "main-container", "center-aligned"], [1, "sticky-content", 2, "z-index", "1"], [1, "column-container"], [1, "text"], [1, "text-light"], [1, "primary", "main-container", 2, "animation", "none"], [1, "sticky-content", 2, "z-index", "2", "position", "absolute", "top", "350vh", "transform", "translateY(-100%)"], [1, "bottom-image"], ["src", "assets/strasbourg.svg", "alt", "Strasbourg"], [1, "column-container", "big-screen-small-padding-right"], [1, "column-container", "right-aligned"], [1, "text", 2, "width", "100%"], [1, "text-light", 2, "width", "100%"], [1, "text", "big-screen-big-padding-right", "small-screen-padding-bottom"], [1, "column-container", 2, "height", "100%", "justify-content", "space-evenly"], [1, "medium-circle", 2, "padding-bottom", "50px", 3, "onClick", "image"], [1, "text", 2, "padding-bottom", "60px"], [1, "center-aligned"]],
         template: function AppComponent_Template(rf, ctx) {
           if (rf & 1) {
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "div", 3)(4, "span", 4);
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](5, "Hi, I'm Ulises Hernandez");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](0, "div", 0)(1, "div", 1)(2, "div", 2)(3, "div", 3)(4, "div", 4)(5, "span", 5);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](6, "Hi, I'm Ulises Hernandez");
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](6, "span", 5);
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](7, "and I'm a software engineer");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](7, "span", 6);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](8, "and I'm a software engineer");
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](8, "div");
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](9, "app-circular-container", 6);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](9, "app-circular-container", 7);
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()();
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](10, "div", 7)(11, "div", 8)(12, "div", 9)(13, "div", 3)(14, "span", 4);
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](15, "Currently living in");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](10, "div", 8)(11, "div", 9)(12, "div", 10)(13, "span", 11);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](14, "Currently living in");
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](16, "span", 5);
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](17, "Strasbourg, France");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](15, "span", 12);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](16, "Strasbourg, France");
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](18, "span", 5)(19, "s");
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](20, "Mulhouse, France");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](17, "span", 12)(18, "s");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](19, "Mulhouse, France");
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](21, "span", 5)(22, "s");
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](23, "Ottawa, Canada");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](20, "span", 12)(21, "s");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](22, "Ottawa, Canada");
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](24, "span", 5)(25, "s");
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](26, "Juarez, Mexico");
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()()();
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](27, "div", 10)(28, "div", 11)(29, "div", 12);
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](30, "img", 13);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](23, "span", 12)(24, "s");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](25, "Juarez, Mexico");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](26, "div", 13)(27, "div", 14)(28, "div", 15);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](29, "img", 16);
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()();
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](31, "div", 14);
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](32, "app-brain-sparks-model");
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](33, "div", 3)(34, "span", 4);
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](35, "I'm interested in all");
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](36, "br");
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](37, "that is related to");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](30, "div", 9)(31, "div", 3)(32, "div", 17);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](33, "app-brain-sparks-model");
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](38, "span", 5);
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](39, "Artificial Intelligence");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](34, "div", 18)(35, "span", 19);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](36, "I'm interested in all");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](37, "br");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](38, "that is related to");
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](40, "span", 5);
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](41, "Machine Learning");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](39, "span", 20);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](40, "Artificial Intelligence");
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](42, "span", 5);
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](43, "Fullstack Development");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](41, "span", 20);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](42, "Machine Learning");
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](44, "span", 5);
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](45, "Mobile Development");
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()();
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](46, "div", 7)(47, "div", 2)(48, "span", 4);
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](49, "You can see what");
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](50, "br");
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](51, "I've done here");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](43, "span", 20);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](44, "Fullstack Development");
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](52, "div", 15)(53, "app-circular-container", 16);
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](54, " Certifications ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](45, "span", 20);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](46, "Mobile Development");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](47, "div", 8)(48, "div", 2)(49, "div", 3)(50, "span", 21);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](51, "You can see what");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](52, "br");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](53, "I've done here");
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](55, "br")(56, "br")(57, "br");
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](58, "app-circular-container", 16);
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](59, " Projects ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](54, "div", 22)(55, "app-circular-container", 23);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](56, " Certifications ");
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](60, "br")(61, "br")(62, "br");
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](63, "app-circular-container", 16);
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](64, " Articles ");
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()();
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](65, "div", 1)(66, "div", 2)(67, "div", 15)(68, "span", 4);
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](69, "Let's get in contact ;)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](57, "app-circular-container", 23);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](58, " Projects ");
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](70, "br")(71, "br")(72, "br");
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](73, "div", 17);
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](74, "app-circular-container", 6);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](59, "app-circular-container", 23);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](60, " Articles ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](61, "div", 1)(62, "div", 2)(63, "div", 22)(64, "span", 24);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵtext"](65, "Let's get in contact ;)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementStart"](66, "div", 25);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelement"](67, "app-circular-container", 7);
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵelementEnd"]()()()()();
           }
           if (rf & 2) {
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](9);
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("onClick", ctx.navigateToUrl("https://www.linkedin.com/in/uhernandezc/"))("image", "assets/me.png");
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](44);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](46);
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("onClick", ctx.navigateToUrl("https://www.linkedin.com/in/uhernandezc/details/certifications/"))("image", "assets/certifications.jpeg");
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](5);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("onClick", ctx.navigateToUrl("https://github.com/uliseshdzc"))("image", "assets/projects.jpeg");
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](5);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](2);
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("onClick", ctx.navigateToUrl("https://www.sfeir.dev/author/ulises-hernandez/"))("image", "assets/articles.jpeg");
-            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](11);
+            _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵadvance"](8);
             _angular_core__WEBPACK_IMPORTED_MODULE_2__["ɵɵproperty"]("onClick", ctx.navigateToUrl("mailto:<ulises.hernandez.calzadillas@gmail.com>"))("image", "assets/mail.png");
           }
         },
         dependencies: [_circular_container_circular_container_component__WEBPACK_IMPORTED_MODULE_0__.CircularContainerComponent, _brain_sparks_brain_sparks_component__WEBPACK_IMPORTED_MODULE_1__.BrainSparksComponent],
-        styles: ["[_nghost-%COMP%] {\n  background-color: var(--background-color);\n}\n\n.grid[_ngcontent-%COMP%] {\n  display: grid;\n  grid-template-columns: 1fr;\n  grid-template-rows: 100vh repeat(4, 250vh);\n}\n\n.big-circle[_ngcontent-%COMP%] {\n  --circle-size: 300px;\n}\n\n.medium-circle[_ngcontent-%COMP%] {\n  --circle-size: 200px;\n  font-size: 25px;\n}\n\n.primary[_ngcontent-%COMP%] {\n  background-color: var(--primary-color);\n  color: var(--on-primary-color);\n  --circle-color: var(--on-primary-color);\n  --circle-content-color: var(--primary-color);\n}\n\n.secondary[_ngcontent-%COMP%] {\n  background-color: var(--secondary-color);\n  color: var(--on-secondary-color);\n  --circle-color: var(--on-secondary-color);\n  --circle-content-color: var(--secondary-color);\n}\n\n@keyframes _ngcontent-%COMP%_fadeIn {\n  from {\n    opacity: 0;\n  }\n  to {\n    opacity: 1;\n  }\n}\n@keyframes _ngcontent-%COMP%_fadeOut {\n  from {\n    opacity: 1;\n  }\n  to {\n    opacity: 0;\n  }\n}\n.main-container[_ngcontent-%COMP%] {\n  animation: _ngcontent-%COMP%_fadeIn, _ngcontent-%COMP%_fadeOut;\n  animation-range: 0% 30%, 70% 100%;\n  animation-timeline: view();\n  padding-left: 15%;\n  padding-right: 15%;\n  display: flex;\n  align-items: center;\n}\n\n.sticky-content[_ngcontent-%COMP%] {\n  position: sticky;\n  top: 50%;\n  transform: translateY(-50%);\n  display: flex;\n  align-items: center;\n  justify-content: space-evenly;\n  width: 100%;\n}\n\n.center-aligned[_ngcontent-%COMP%] {\n  justify-content: space-evenly;\n  text-align: center;\n}\n\n.right-aligned[_ngcontent-%COMP%] {\n  justify-content: right;\n  text-align: right;\n}\n\n.column-container[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  width: 100%;\n}\n\n.bottom-image[_ngcontent-%COMP%] {\n  display: flex;\n  width: 100%;\n  height: auto;\n  align-items: flex-end;\n  transform: translateY(5px);\n}\n\n@keyframes _ngcontent-%COMP%_fadeInUp {\n  from {\n    opacity: 0;\n    transform: translateY(20px);\n  }\n  to {\n    opacity: 1;\n    transform: translateY(0);\n  }\n}\n.text-light.animate[_ngcontent-%COMP%] {\n  animation: _ngcontent-%COMP%_fadeInUp 0.5s forwards;\n}\n\n.text[_ngcontent-%COMP%] {\n  font-size: 80px;\n  width: 100%;\n}\n\n.text-light[_ngcontent-%COMP%] {\n  opacity: 0;\n  width: 100%;\n  font-size: 76px;\n  font-weight: 200;\n}"]
+        styles: ["[_nghost-%COMP%] {\n  background-color: var(--background-color);\n}\n\n.grid[_ngcontent-%COMP%] {\n  display: grid;\n  grid-template-columns: 1fr;\n  grid-template-rows: 100vh repeat(4, 250vh);\n}\n\n.big-circle[_ngcontent-%COMP%] {\n  --circle-size: 250px;\n}\n\n.medium-circle[_ngcontent-%COMP%] {\n  --circle-size: 175px;\n  font-size: 25px;\n}\n\n.primary[_ngcontent-%COMP%] {\n  background-color: var(--primary-color);\n  color: var(--on-primary-color);\n  --circle-color: var(--on-primary-color);\n  --circle-content-color: var(--primary-color);\n}\n\n.secondary[_ngcontent-%COMP%] {\n  background-color: var(--secondary-color);\n  color: var(--on-secondary-color);\n  --circle-color: var(--on-secondary-color);\n  --circle-content-color: var(--secondary-color);\n}\n\n@keyframes _ngcontent-%COMP%_fadeIn {\n  from {\n    opacity: 0;\n  }\n  to {\n    opacity: 1;\n  }\n}\n@keyframes _ngcontent-%COMP%_fadeOut {\n  from {\n    opacity: 1;\n  }\n  to {\n    opacity: 0;\n  }\n}\n.main-container[_ngcontent-%COMP%] {\n  animation: _ngcontent-%COMP%_fadeIn, _ngcontent-%COMP%_fadeOut;\n  animation-range: 0% 30%, 70% 100%;\n  animation-timeline: view();\n  display: flex;\n  align-items: center;\n}\n\n.sticky-content[_ngcontent-%COMP%] {\n  position: sticky;\n  top: 50%;\n  transform: translateY(-50%);\n  display: flex;\n  align-items: center;\n  justify-content: space-evenly;\n  width: 100%;\n}\n\n.center-aligned[_ngcontent-%COMP%] {\n  justify-content: space-evenly;\n  text-align: center;\n}\n\n.right-aligned[_ngcontent-%COMP%] {\n  justify-content: right;\n  text-align: right;\n}\n\n.wrapper[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n}\n\n.column-container[_ngcontent-%COMP%] {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n}\n\n.bottom-image[_ngcontent-%COMP%] {\n  display: flex;\n  width: 100%;\n  height: auto;\n  align-items: flex-end;\n  transform: translateY(5px);\n}\n\n@keyframes _ngcontent-%COMP%_fadeInUp {\n  from {\n    opacity: 0;\n    transform: translateY(20px);\n  }\n  to {\n    opacity: 1;\n    transform: translateY(0);\n  }\n}\n.text-light.animate[_ngcontent-%COMP%] {\n  animation: _ngcontent-%COMP%_fadeInUp 0.5s forwards;\n}\n\n.text[_ngcontent-%COMP%] {\n  font-size: 76px;\n}\n\n.text-light[_ngcontent-%COMP%] {\n  opacity: 0;\n  font-size: 72px;\n  font-weight: 200;\n}\n\n.big-screen-small-padding-right[_ngcontent-%COMP%] {\n  padding-right: 50px;\n}\n\n.big-screen-big-padding-right[_ngcontent-%COMP%] {\n  padding-right: 100px;\n}\n\n.small-screen-padding-bottom[_ngcontent-%COMP%] {\n  padding-bottom: 0;\n}\n\n@media screen and (min-width: 800px) and (max-width: 1200px) {\n  .big-circle[_ngcontent-%COMP%] {\n    --circle-size: 200px;\n  }\n  .medium-circle[_ngcontent-%COMP%] {\n    --circle-size: 125px;\n    font-size: 16px;\n  }\n  .text[_ngcontent-%COMP%] {\n    font-size: 52px;\n  }\n  .text-light[_ngcontent-%COMP%] {\n    font-size: 46px;\n  }\n}\n@media screen and (max-width: 800px) {\n  .big-circle[_ngcontent-%COMP%] {\n    --circle-size: 175px;\n  }\n  .medium-circle[_ngcontent-%COMP%] {\n    --circle-size: 100px;\n    font-size: 16px;\n  }\n  .text[_ngcontent-%COMP%] {\n    font-size: 36px;\n  }\n  .text-light[_ngcontent-%COMP%] {\n    font-size: 32px;\n  }\n  .wrapper[_ngcontent-%COMP%] {\n    flex-direction: column;\n  }\n  .big-screen-small-padding-right[_ngcontent-%COMP%] {\n    padding-right: 0;\n  }\n  .big-screen-big-padding-right[_ngcontent-%COMP%] {\n    padding-right: 0;\n  }\n  .small-screen-padding-bottom[_ngcontent-%COMP%] {\n    padding-bottom: 50px;\n  }\n}"]
       });
     }
   }
