@@ -1,0 +1,16 @@
+<div class="questions-container">
+
+  <div class="input-response-container" *ngIf="!isLoading">
+    <input class="text" 
+      type="text" 
+      placeholder="Ask me a question..." 
+      [(ngModel)]="userInput"
+      (keydown.enter)="onEnter()"
+    />
+    <div *ngIf="responseText" class="text-light response-container" [innerHTML]="responseText" [class.small-text-light]="responseText.length > 100"></div>    
+  </div>
+
+  <div *ngIf="isLoading" class="text-light">
+    Thinking...
+  </div>
+</div>

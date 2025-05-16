@@ -1,0 +1,27 @@
+.questions-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  height: 100vh;
+  flex-direction: column;
+  margin: 50px;
+}
+
+input, input::placeholder {
+  border: none;
+  outline: none;
+  background: transparent;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 20pt;
+  color: inherit;
+  font-family: inherit;
+}
+
+.text-light {
+  opacity: 1;
+}
+
+.small-text-light {
+    font-size: 32px;
+}
