@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { environment } from '../../environments/environment';
+
 
 @Component({
   selector: 'app-ai-questioning',
@@ -14,6 +16,7 @@ export class AiQuestioningComponent {
   userInput: string = '';
   responseText: string = '';
   isLoading: boolean = false;
+  private readonly questionsUrl = environment.questionsUrl;
   
   constructor(private readonly http: HttpClient) {}
 
@@ -31,7 +34,7 @@ export class AiQuestioningComponent {
       question: this.userInput
     };
 
-    this.http.post('http://localhost:8000/question', body, { headers, responseType: 'text' })
+    this.http.post(`${this.questionsUrl}/question`, body, { headers, responseType: 'text' })
       .subscribe({
         next: (res) => {
           this.responseText = res;
