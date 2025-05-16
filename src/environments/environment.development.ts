@@ -1,4 +1,4 @@
 export const environment = {
   production: false,
-  questionsUrl: 'http://localhost:8000'
+  questionsUrl: 'https://aws.uliseshernandez.com'
 };
