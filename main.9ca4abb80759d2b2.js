@@ -546,7 +546,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const environment = {
   production: true,
-  questionsUrl: 'http://ec2-34-238-126-144.compute-1.amazonaws.com'
+  questionsUrl: 'https://aws.uliseshernandez.com'
 };
 
 /***/ }),
